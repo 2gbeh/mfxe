@@ -20,7 +20,7 @@ $ cd mfxe
 
 1. Start `Apache Server` and visit http://localhost/phpmyadmin
 
-2. Create a new database `mfxe` and import the [database dump](https://github.com/2gbeh/mfxe/blob/main/data/mfxe.sql)
+2. Create a new database `mfxe` and import the [database dump](https://github.com/2gbeh/mfxe/blob/main/src/mfxe.sql)
 
 3. Visit http://localhost/mfxe
 
