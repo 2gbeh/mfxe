@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Untitled Document</title>
+  <style type="text/css">
+	.chart_pie {
+		animation:chart_pie_anime 2s reverse;
+		transform:rotate(-90deg);
+		transform-origin:center;}
+	.chart_pie_negative {
+		transform:rotate(-90deg) scale(1,-1);}
+	.chart_pie_inner {
+		animation:chart_pie_anime_fade_in 2s forwards;
+		opacity:0;
+		transform:translateY(0.3em);}
+	@-webkit-keyframes chart_pie_anime {
+		to {stroke-dasharray:0 100;}
+	}
+	@keyframes chart_pie_anime {
+		to {stroke-dasharray:0 100;}
+	}
+	@-webkit-keyframes chart_pie_anime_fade_in {
+		to {opacity:1; transform:translateY(0);}
+	}			
+	@keyframes chart_pie_anime_fade_in {
+		to {opacity:1; transform:translateY(0);}
+	}		
+	</style>
+</head>
+<body>
+<div class="grid">
+  <section>
+    <h2>Positive chart value</h2>
+    <svg viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle stroke="lavender" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+      <circle class="chart_pie" stroke="#555" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+      <g class="chart_pie_inner">
+        <text class="chart_pie_rate" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">30%</text>
+        <text class="chart_pie_label" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">Yay 30% progress!</text>
+      </g>
+    </svg>
+  </section>
+
+  <section>
+    <h2>Negative chart value</h2>
+    <svg viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle  stroke="lavender" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+      <circle class="chart_pie chart_pie_negative" stroke="#555" stroke-width="2" stroke-dasharray="10,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+      <g class="chart_pie_inner">
+        <text class="chart_pie_rate" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">-10%</text>
+        <text class="chart_pie_label" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">Oh no :(</text>
+      </g>
+    </svg>
+  </section>
+</div>
+</body>
+</html>

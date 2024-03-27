@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* YELLOW */
+form.tmp-form button.pri, 
+aside section.menu ul li a.focus {
+	background-color:#E8A516;}
+	
+ {
+	color:#E8A516;}
+	
+ {
+	border-color:#E8A516;}	
+
+
+/* BLUE */
+ {
+	background-color:#562A45;}
+
+header h2, 
+form.tmp-form label, 
+form.tmp-form button.pri, 
+form.tmp-form button.pri:hover, 
+aside section.menu ul li a.focus, 
+nav ul li a {
+	color:#562A45;}	
+	
+header, 
+form.tmp-form button.pri, 
+form.tmp-form input:focus, 
+aside section.menu ul li a.focus {
+	border-color:#562A45;}	
+	
+	
+
+
+	

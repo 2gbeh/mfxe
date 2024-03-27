@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* 
+	---------------------
+	DARK THEME
+	=====================
+	BACKGROUND		#192231
+	BLACK					#121212
+	WHITE					#EEEEEE(200), #F5F5F5(100), #FAFAFA(50)	 
+	PRIMARY				#5893DF
+	SECONDARY			#EC5E69	
+	TILES					#24344D
+	ASIDE BG			#131C29
+	ASIDE HOVER		#1C2636
+	TABLE STRIPE	#293851
+	CHART TUBE		#2F3E55
+	CHART GREEN		#2EC5D3
+	CHART RED			#EC5E69
+	CHART BLUE		#5893DF
+	CHART YELLOW	#F1C205
+	CHART ORANGE 	#C87F13
+*/
+* {
+	text-shadow:none;
+	box-shadow:none;}
+body {
+	background-color:#192231;}
+header {
+	box-shadow:none;}		
+	
+
+
+form.tmp-form-login legend {
+	color:#EEE;}
+form.tmp-form-login input {
+	padding:10px;
+	margin-top:10px;}	
+form.tmp-form .overlay i {
+	right:12px;}	
+	
+	
+	
+nav {
+	color:#FFF;
+	border-bottom:solid thin #2F3E55;}
+nav ul li a {
+	color:#F1C205;}	
+nav ul li a:hover {
+	color:#C87F13;}	
+nav ul li a.focus {
+	color:#EEE;}	
+	
+
+
+aside {
+	background-color:#131C29;
+	border-right:solid thin #2F3E55;}
+aside section.account .name {
+	padding-left:15px;	
+	color:#FFF;}
+aside section.account .username {
+	color:#EEE;}
+aside section.account a.edit {
+	color:#FFF;}
+aside section.menu .divide	{
+	color:#EEE;}	
+aside section.menu ul li a {
+	color:#CCC;}	
+aside section.menu ul li a:hover {
+	background-color:#1C2636;
+	color:#FFF;
+	border-top:solid thin transparent;
+	border-bottom:solid thin transparent;}	
+aside section.menu ul li a.focus {
+	background-color:#1C2636;	
+	color:#FFF;
+	border-top:solid thin #24344D;
+	border-bottom:solid thin #24344D;}
+
+
+
+.anum div {
+	color:#FFF;}
+.anum ol {
+	border-bottom:none;}	
+	
+	
+	
+table.chart_grid caption {
+	color:#EEE;
+	background-color:#24344D;
+	text-shadow:none;}
+table.chart {
+	box-shadow:none;}
+table.chart caption {	
+	border-bottom:solid thin #192231;
+	box-shadow:none;}	
+table.chart ol {
+	background-color:#2F3E55;
+	box-shadow:none;}	
+table.chart_macro {
+	background-color:#24344D;}
+table.chart_macro tr th	{
+	color:#FFF;}
+table.chart_macro tr td {
+	color:#CCC;}
+table.chart_ring tr td {
+	background-color:#24344D;}
+table.chart_column {
+	background-color:#24344D;}
+table.chart_column tbody tr th {
+	color:#EEE;}
+table.chart_column tbody tr td {
+	border:solid thin #2F3E55;
+	border-right:solid 2px #2F3E55;}
+table.chart_column tfoot tr td {
+	color:#FFF;
+	border:solid thin #2F3E55;}
+table.chart_column tfoot tr:first-child td {
+	border-top:solid #192231;}
+table.chart_column tbody tr td.active {
+	border-right:solid 2px #2F3E55;}		
+	
+	
+	
+form.tmp-form {
+	box-shadow:none;
+	background-color:#24344D;}
+form.tmp-form label {
+	color:#FFF;}
+form.tmp-form button.pri {
+	background-color:#5893DF;
+	color:#FFF;
+	border-color:#5893DF;}	
+form.tmp-form button.pri:hover {
+	background-color:#FFF;
+	color:#5893DF;}		
+form.tmp-form button.sec {
+	background-color:#EC5E69;
+	color:#FFF;
+	border-color:#EC5E69;}	
+form.tmp-form button.sec:hover {
+	background-color:#FFF;
+	color:#EC5E69;}	
+form.tmp-form-toolbar {
+	background-color:transparent;}	
+form.tmp-form-toolbar select {
+	padding-top:12px;
+	padding-bottom:12px;}		
+form.tmp-form-toolbar button.pri {
+	color:#FFF;
+	background-color:#5893DF;}	
+
+
+
+table.tmp-ribbon {
+	color:#EEE;
+	background-color:#24344D;
+	box-shadow:none;}
+table.tmp-table {
+	background-color:#192231;
+	box-shadow:none;}	
+table.tmp-table caption {
+	color:#FFF;
+	text-shadow:none;}
+table.tmp-table tr th {
+	color:#FFF;
+	border-bottom:solid #2F3E55;}	
+table.tmp-table tr td {
+	color:#EEE;
+	border-bottom:solid thin #2F3E55;}
+table.tmp-table tr:nth-child(even) td {
+	background-color:#24344D;}	
+table.tmp-table tr:hover td {
+	background-color:#2F3E55;
+	color:#FFF;
+	border-bottom:solid thin #FFF;}	
+
+
+
+.pager tr th {
+	background-color:transparent;}	
+.pager caption {
+	color:#EEE;
+	text-shadow:none;}
+.pager tr th, 
+.pager tr td {
+	color:#CCC;	
+	border:solid thin #2F3E55;}
+.pager tr td {
+	border:none;}
+.pager tr td input {
+	color:#FFF;
+	background-color:#5893DF;
+	border:none;}
+.pager tr td label {
+	color:#FFF;}
+
+	
+	
+section.tmp-profile {
+	background-color:#24344D;
+	box-shadow:none;}
+section.tmp-profile ul li table tr td {
+	color:#FFF;}	
+section.tmp-profile ul li i {
+	color:#FFF;}	
+section.tmp-profile ul li label {
+	color:#999;}	
+
+
+
+main.tmp-landing .base {
+	margin:280px 10px 20px;	
+	color:#EEE;
+	text-shadow:none;}
